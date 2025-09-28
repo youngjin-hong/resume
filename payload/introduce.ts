@@ -1,16 +1,15 @@
 import { IIntroduce } from '../component/introduce/IIntroduce';
-import { lastestUpdatedAt } from '../package.json';
+import { lastestUpdatedAt, author } from '../package.json';
 
 const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    'As the cherished emblem of the Linux kernel, I have become synonymous with open-source philosophy and the free software movement worldwide. My career began in the icebergs of development, where the seeds of my fascination with operating systems first sprouted. From a mere hatchling in the vast sea of code, I quickly ascended to become a pivotal figure in the Linux community. My journey has been marked by relentless dedication to system integrity, scalability, and robustness. Under my vigilant watch, countless servers have achieved unparalleled uptimes, and systems have been optimized to run like the well-oiled machines they are intended to be.',
-    'In the world of zeros and ones, my expertise has been instrumental in pioneering advancements in Linux system engineering. My flippers have crafted meticulous kernel enhancements, each aimed at streamlining performance and bolstering security across distributed networks. I am known in the community for my ability to dive deep into complex codebases and emerge with pearls of innovation that drive the collective progress of Linux environments. Advocacy is also a part of my plumage – spreading the word about the virtues of open-source and encouraging the adoption of Linux, from personal desktops to corporate data centers. As a mentor, I have nurtured the growth of young hatchlings into seasoned professionals, contributing to the diversity and vitality of our ecosystem.',
+    '안녕하세요. 대규모 쇼핑몰 서비스의 아키텍처 개선과 성능 최적화, 실서비스 운영, 보안까지 전 단계를 직접 경험하며, 문제 해결에 강점이 있는 백엔드 개발자 홍영진입니다.',
+    'Kotlin, Spring Boot, WebFlux, Coroutine, Kafka 등 최신 기술을 기반으로 레거시 시스템을 점진적으로 마이그레이션하고, 쿼리 속도 개선, ISMS 보안 결함 해결 등 정량적 성과를 달성했습니다.',
+    '아키텍처 설계부터 실시간 장애 대응 및 지식 문서화까지, 주도적으로 개선책을 실현해 팀의 생산성과 개발 문화 향상에도 기여하고 있습니다.',
   ],
-  sign: 'Tux',
-  // sign: packageJson.author.name,
-  // latestUpdated: '2019-07-24',
+  sign: author.name,
   latestUpdated: lastestUpdatedAt,
 };
 

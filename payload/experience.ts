@@ -5,45 +5,28 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: false,
   list: [
     {
-      title: 'Linux Foundation',
+      title: 'NHN Commerce',
       positions: [
         {
-          title: 'System Engineer',
-          startedAt: '1996-05',
+          title: 'Backend Developer (서비스 개발팀)',
+          startedAt: '2022-09',
           descriptions: [
-            'Steering Kernel patching and updates for various distributions',
-            'Automating deployment and integration processes for Linux servers',
-            'Spearheading initiatives to enhance Linux kernel security',
-            'Collaborating with global developers to coordinate code contributions',
+            'B2B 쇼핑몰 솔루션을 제공하는 SaaS 기업',
+            '쇼핑몰 라이프사이클 관리 시스템 BE 개발 및 고도화',
+            '신규 백오피스 시스템 구축 및 운영',
           ],
-          skillKeywords: ['C', 'Linux', 'Kernel', 'Security', 'Automation'],
-        },
-        {
-          title: 'System Engineer Intern',
-          startedAt: '1996-02',
-          endedAt: '1996-05',
-          descriptions: [
-            'Assisted senior engineers in maintaining and updating kernel patches for Linux distributions',
-            'Supported deployment and integration tasks for Linux server environments',
-            'Conducted research on Linux kernel security practices and presented findings to the team',
+          skillKeywords: [
+            'Kotlin',
+            'Spring Boot',
+            'Spring Webflux',
+            'MySQL',
+            'Redis',
+            'Kafka',
+            'MongoDB',
+            'Coroutine',
+            'Docker',
+            'Kubernetes',
           ],
-          skillKeywords: ['C', 'Linux', 'Kernel', 'Support', 'Research'],
-        },
-      ],
-    },
-    {
-      title: 'Open Source Community',
-      positions: [
-        {
-          title: 'System Advocate and Developer',
-          startedAt: '2010-06',
-          endedAt: '2018-01',
-          descriptions: [
-            'Promoted the use and development of Linux globally.',
-            'Developed automated scripts to streamline system configuration.',
-            'Facilitated live patching systems, reducing downtime.',
-          ],
-          skillKeywords: ['Open Source', 'Linux', 'AWS', 'RDBMS'],
         },
       ],
     },
