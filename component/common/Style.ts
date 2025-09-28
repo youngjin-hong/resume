@@ -18,6 +18,7 @@ export const Style: Record<TStyleKey, CSSProperties> = {
 
   gray: {
     color: 'gray',
+    fontSize: '1.3em',
   },
 
   global: {
