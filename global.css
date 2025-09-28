@@ -1,0 +1,24 @@
+@media print {
+  button,
+  button:focus,
+  button:active,
+  .btn,
+  .btn:focus,
+  .btn:active,
+  a,
+  a:focus,
+  a:active,
+  .badge,
+  .badge:focus,
+  .badge:active,
+  span,
+  span:focus,
+  span:active,
+  [class*='badge'],
+  [class*='btn'] {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    background-image: none !important;
+  }
+}
