@@ -28,11 +28,6 @@ const profile: IProfile.Payload = {
       icon: faDev,
     },
   ],
-  notice: {
-    title:
-      "The content below is all fictitious and is just a sample from 'https://github.com/uyu423/resume-nextjs'.",
-    icon: faBell,
-  },
 };
 
 export default profile;
