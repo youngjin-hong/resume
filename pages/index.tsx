@@ -15,7 +15,7 @@ import { Project } from '../component/project';
 import { Skill } from '../component/skill';
 import { Style } from '../component/common/Style';
 import Payload from '../payload';
-import { Article } from '../component/article';
+// import { Article } from '../component/article';
 
 function Yosume() {
   return (

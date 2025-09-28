@@ -3,13 +3,11 @@ import { faDev } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
-import image from '../asset/sample_tux.png';
 
 const profile: IProfile.Payload = {
   disable: false,
 
   image: 'https://i.postimg.cc/yNMfcqYD/IMG-7564.jpg',
-  // image,
   name: {
     title: '홍영진',
     small: '(Wade)',

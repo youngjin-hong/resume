@@ -7,8 +7,8 @@ const education: IEducation.Payload = {
     {
       title: '한양대학교 ERICA',
       subTitle: '소프트웨어학과 (편입 및 학사 졸)',
-      startedAt: '2023-02',
-      endedAt: '2020-03',
+      startedAt: '2020-03',
+      endedAt: '2023-02',
     },
     {
       title: '선문대학교',

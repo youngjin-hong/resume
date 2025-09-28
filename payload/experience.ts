@@ -12,7 +12,7 @@ const experience: IExperience.Payload = {
           startedAt: '2022-09',
           descriptions: [
             'B2B 쇼핑몰 솔루션을 제공하는 SaaS 기업',
-            '쇼핑몰 라이프사이클 (신청, 운영, 연장, 만료, 삭제) 관리 시스템 BE 개발 및 고도화',
+            '쇼핑몰 라이프사이클 관리 시스템 BE 개발 및 고도화',
             '신규 백오피스 시스템 구축 및 운영',
           ],
           skillKeywords: [

@@ -10,10 +10,11 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content: '프로젝트 개요',
+          weight: 'MEDIUM',
           descriptions: [
             {
               content:
-                '레거시 PHP 시스템의 효율성 및 확장성 한계를 해결하기 위해 Kotlin, Spring 으로 리 아키텍처링 진행',
+                '레거시 PHP 시스템의 효율성 및 확장성 한계를 해결하기 위해 Kotlin, Spring 으로 리아키텍처링 진행',
             },
           ],
         },
@@ -24,14 +25,6 @@ const project: IProject.Payload = {
         {
           content: '2025년 쇼핑몰 신청/설치 속도 최적화',
           weight: 'MEDIUM',
-          descriptions: [
-            {
-              content: '이벤트 드리븐 형식을 도입하여, 세팅 속도 개선',
-            },
-            {
-              content: '세팅 시간 1분 30초 > 30초로 60% 단축',
-            },
-          ],
         },
         {
           content: '2024년 쇼핑몰 실시간 설치 진행률 제공 기능 개발',
@@ -47,6 +40,10 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
         },
         {
+          content: '2024년 쇼핑몰 삭제 배치 개발',
+          weight: 'MEDIUM',
+        },
+        {
           content: '2024년 쇼핑몰 신청 현황 및 라이브 상점 통계 기능 개발',
           weight: 'MEDIUM',
         },
@@ -56,6 +53,10 @@ const project: IProject.Payload = {
         },
         {
           content: '2023년 쇼핑몰 라인업 업그레이드/다운그레이드 기능 개발',
+          weight: 'MEDIUM',
+        },
+        {
+          content: '2023년 쇼핑몰 신규 신청 기능 개발',
           weight: 'MEDIUM',
         },
       ],
@@ -71,8 +72,7 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             {
-              content:
-                '기존 쇼핑몰의 DB 계정이 yml 하드코딩에 따른 ISMS 보안 결함 해결(ISMS 개선 사항 해결)',
+              content: '쇼핑몰의 DB 계정 yml 하드코딩에 따른 ISMS 보안 결함 발생',
             },
           ],
         },
@@ -86,14 +86,14 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: 'CMDB 모니터링 시스템 개발',
+          content: 'CMDB 모니터링 시스템 구축',
           weight: 'MEDIUM',
           descriptions: [
             {
               content: '서버 변경 이력 추적 및 감사 로그 제공',
             },
             {
-              content: '무결성 검증 배치기반으로 데이터 불일치 시 자동 알림 시스템 구축',
+              content: '무결성 검증 배치 기반으로 데이터 불일치 시 자동 알림 시스템 구축',
             },
           ],
         },
@@ -127,7 +127,7 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: '2024년 인사정보 기반 계정 동기화/관제 자동화',
+          content: '2024년 인사정보 기반 계정 관제 배치 개발',
           weight: 'MEDIUM',
           descriptions: [
             {
@@ -139,11 +139,15 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: '2023년 SSO(사내 인증 시스템) 연동 기능 개발',
+          content: '2023년 1:1 문의 기능 리팩토링 및 통계 시스템 개발',
           weight: 'MEDIUM',
         },
         {
-          content: '2023년 백오피스 메뉴별 권한 제어 및 이력 관리',
+          content: '2023년 SSO(사내 인증 시스템) 로그인 연동 기능 개발',
+          weight: 'MEDIUM',
+        },
+        {
+          content: '2023년 메뉴 권한 제어 및 이력 관리 기능 개발',
           weight: 'MEDIUM',
         },
       ],

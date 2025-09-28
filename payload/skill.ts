@@ -31,7 +31,7 @@ const frameworks: ISkill.Skill = {
     },
     {
       title: 'Coroutine',
-      level: 3,
+      level: 2,
     },
     {
       title: 'Airflow',
