@@ -29,11 +29,6 @@ const project: IProject.Payload = {
         {
           content: '2024년 쇼핑몰 실시간 설치 진행률 제공 기능 개발',
           weight: 'MEDIUM',
-          descriptions: [
-            {
-              content: 'SSE(Server-Sent Events) 도입하여 실시간 설치 진행률 제공',
-            },
-          ],
         },
         {
           content: '2024년 디스크 사용량 기반 과금 시스템 개발',
